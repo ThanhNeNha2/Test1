@@ -1,0 +1,32 @@
+.product-container {
+  width: 100%;
+  display: flex;
+}
+.product-left {
+  width: 65%;
+}
+
+.product-right {
+  width: 35%;
+}
+.img-main {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.img-main img {
+  width: 100%;
+}
+.img-botton {
+  display: flex;
+  width: 100%;
+  padding: 0 0 20px 20px;
+  border: 1px solid grey;
+  gap: 20px;
+}
+.img-botton img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(230, 6, 6, 0.767);
+  cursor: pointer;
+}
